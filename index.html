@@ -7,20 +7,36 @@
       }
       </style>
     <script>
-     /* alert("teste");
-      console.log("teste")*/
-      texto = document.querySelector(h1)
-      function teste(){
-        document.write("javascript")
-        //texto.innerText = "javascript javascript funciona"
+//O javascript não está funcionando visualizando pelo celular
+     const card = document.querySelector(".card")
+ let imagem 
+ let alternativo
+let titulo
+     card.innerHTML = `
+<div>
+<img src = ${imagem} alt=${alternativo} class="img_projeto"/>
+<h2>${titulo}</h2>
+<h3>${subtitulo}</h3>
+<p class="descricao">${descricao}</p>
+</div>
+`
+
       }
     </script>
     <link rel="stylesheet" href="css/style.css"/>
   </head>
 <body>
-  <h1>Portifolio</h1>
-  <button onclick="teste()">
-    teste
-  </button>
+ 
+<nav>
+</nav>
+<header>
+<img src="img/perfil.png" alt="foto de perfil"/>
+<h1>Jennifer cristine</h1>
+<img src="img/banner.png" alt="banner"/> 
+</header>
+    <div class="card">
+
+</div>
+  
 </body>
 </html>
