@@ -1,42 +1,30 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
   <head>
-    <style>
-      h1{
-        color:blue;
-      }
-      </style>
-    <script>
-//O javascript não está funcionando visualizando pelo celular
-     const card = document.querySelector(".card")
- let imagem 
- let alternativo
-let titulo
-     card.innerHTML = `
-<div>
-<img src = ${imagem} alt=${alternativo} class="img_projeto"/>
-<h2>${titulo}</h2>
-<h3>${subtitulo}</h3>
-<p class="descricao">${descricao}</p>
-</div>
-`
-
-      }
-    </script>
-    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Jennifer Cristine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script> <!-- Vinculando o arquivo JS -->
   </head>
-<body>
- 
-<nav>
-</nav>
-<header>
-<img src="img/perfil.png" alt="foto de perfil"/>
-<h1>Jennifer cristine</h1>
-<img src="img/banner.png" alt="banner"/> 
-</header>
-    <div class="card">
+  <body>
+    
+    <header>
+      <img src="img/perfil.png" id="perfil" alt="foto de perfil"/>
+      <h1>Jennifer Cristine</h1>
+    </header>
+    <nav>
+      <!--todo: criar as paginas-->
+      <a href="#home" >Inicio</a>
+      <a href="#services" class="active">Projetos</a>
+      <a href="#about">Sobre</a>
+      <a href="#contact">Contato</a>
+    </nav>
+<!--todo: criar um titulo e um container para subtitulo-->
+    <div class="cards-container">
+   
+    </div>
+    <footer></footer>
 
-</div>
-  
-</body>
+  </body>
 </html>

@@ -1,3 +1,87 @@
-h1{
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 1.2rem;
+  color: #777;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+h2 {
+  font-size: 1.8rem;
+  color: #515151;
+  margin-top: 10px;
+}
+nav,a{
+  display: flex;
+  justify-content: space-around;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height: 180px;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  
+}
+#perfil{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#banner{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+}
+.active{
+  color: aqua;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  margin-top: 30px;
+  justify-content: center;
+}
+.conteudo-card {
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.img_projeto {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.descricao {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
 }
