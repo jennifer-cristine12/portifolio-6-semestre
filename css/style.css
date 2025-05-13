@@ -1,16 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+
 h3 {
   font-size: 1.2rem;
   color: #777;
 }
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
+
 h1 {
   display: flex;
   align-content: center;
@@ -23,14 +17,7 @@ h2 {
   color: #515151;
   margin-top: 10px;
 }
-nav,a{
-  display: flex;
-  justify-content: space-around;
-  background-color: #555;
-  color: #fff;
-  text-decoration: none;
-  
-}
+
 
 header{
   display: flex;
@@ -41,9 +28,10 @@ header{
   background-size: cover;
   text-align: center;
   padding: 20px;
-  color: #fff;
+  color: var(--pale)
   
 }
+
 #perfil{
   width: 150px;
   height: 150px;
@@ -55,9 +43,8 @@ header{
   left: 0;
   top:0;
 }
-.active{
-  color: aqua;
-}
+
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
